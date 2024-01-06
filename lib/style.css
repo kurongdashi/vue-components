@@ -1,0 +1,149 @@
+
+.btn[data-v-d1e50c41] {
+  line-height: 32px;
+  background-color: #189fff;
+  border: 1px solid #189fff;
+  color: #fff;
+  padding: 5px 8px;
+  border-radius: 5px;
+  margin: 5px;
+  cursor: pointer;
+&[data-v-d1e50c41]:active {
+    background-color: #1834ff;
+    border: 1px solid #1834ff;
+}
+  /* &:hover {
+    background-color: #18aaff;
+    border: 1px solid #18aaff;
+  } */
+}
+.desc[data-v-d1e50c41] {
+  margin-left: 20px;
+  color: #189fff;
+}
+
+.input[data-v-ae555240] {
+  width: 220px;
+  height: 32px;
+  padding-left: 8px;
+}
+
+.modal[data-v-25d55598] {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+.modal-box[data-v-25d55598] {
+    margin: auto;
+    z-index: 100;
+    width: 300px;
+    background-color: #fff;
+    border-radius: 8px;
+.title[data-v-25d55598] {
+      padding-left: 20px;
+      font-size: 18px;
+      font-weight: bold;
+      line-height: 30px;
+.close[data-v-25d55598] {
+        float: right;
+        font-size: 12px;
+}
+}
+.content[data-v-25d55598] {
+      padding: 30px;
+      font-size: 14px;
+}
+.footer[data-v-25d55598] {
+      padding-right: 20px;
+      float: right;
+> button[data-v-25d55598] {
+        margin-right: 20px;
+}
+}
+}
+}
+
+.title[data-v-e4294108] {
+  font-weight: bold;
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+.content[data-v-e4294108] {
+  font-size: 16px;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+
+  border-bottom: 1px solid #ccc;
+}
+
+.title[data-v-bac5407a] {
+  font-weight: bold;
+  font-size: 20px;
+  margin-bottom: 20px;
+.account[data-v-bac5407a] {
+    float: right;
+    font-size: 14px;
+.name[data-v-bac5407a] {
+      color: #189fff;
+}
+}
+}
+
+/* 
+fead 是name ，如果不加则默认为 v  
+enter-active 和leave-active 是同一个状态
+fead-move 移动中
+
+*/
+.fead-move[data-v-faa97974],
+.fead-enter-active[data-v-faa97974],
+.fead-leave-active[data-v-faa97974] {
+  opacity: 1;
+  transition: opacity 0.5s linear;
+}
+/* 
+fead 是name ，如果不加则默认为 v  
+enter-from 和leave-to 是同一个状态
+fead-move 移动中
+
+*/
+.fead-enter-from[data-v-faa97974],
+.fead-leave-to[data-v-faa97974] {
+  opacity: 0;
+}
+.fead-leave-active[data-v-faa97974] {
+  position: absolute;
+}
+
+.page[data-v-20f740b5] {
+.header[data-v-20f740b5] {
+    height: 30px;
+}
+.content[data-v-20f740b5] {
+    display: flex;
+> div[data-v-20f740b5] {
+      flex: 1;
+}
+}
+}
+
+.input[data-v-3c4677f7] {
+  width: 220px;
+  height: 32px;
+  padding: 4px 8px;
+  border: 1px solid #ccc !important;
+  border-radius: 4px;
+  outline: none;
+  margin: 5px 0;
+  box-sizing: border-box;
+&[data-v-3c4677f7]:hover {
+    border: 1px solid #189fff !important;
+}
+&.focus[data-v-3c4677f7] {
+    border: 1px solid #189fff !important;
+}
+}
