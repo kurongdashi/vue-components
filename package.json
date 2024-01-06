@@ -1,11 +1,11 @@
 {
-  "name": "my-components",
+  "name": "my-vue-components",
   "version": "0.0.0",
   "private": true,
   "type": "module",
-  "main": "lib/index.js",
+  "main": "my-vue-components/index.js",
   "scripts": {
-    "lib": "vite build  --out-dir my-components --ssr src/index.js",
+    "lib": "vite build  --out-dir my-vue-components --ssr src/index.js",
     "push": "node script && yarn lib && git add . && git commit -m 'commit' && git push",
     "format": "prettier --write src/"
   },
