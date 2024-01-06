@@ -3,9 +3,9 @@
   "version": "0.0.0",
   "private": true,
   "type": "module",
-  "main": "my-vue-components/index.js",
+  "main": "lib/index.js",
   "scripts": {
-    "lib": "vite build  --out-dir my-vue-components --ssr src/index.js",
+    "lib": "vite build  --out-dir lib --ssr src/index.js",
     "push": "node script && yarn lib && git add . && git commit -m 'commit' && git push",
     "format": "prettier --write src/"
   },
