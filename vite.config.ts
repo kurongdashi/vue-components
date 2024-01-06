@@ -12,8 +12,8 @@ export default defineConfig({
     lib: {
       // 入口
       entry: fileURLToPath(new URL('./src/index.js', import.meta.url)),
-      name: 'lib',
-      fileName: 'lib'
+      name: 'index',
+      fileName: 'index'
     },
     rollupOptions: {
       // 不需要打包进库的依赖，忽略vue
